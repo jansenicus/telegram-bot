@@ -6,7 +6,7 @@ telegram-bot
 
 A Telegram Bot based on plugins using [tg](https://github.com/vysheng/tg).
 
-ATM, CDM, EDC
+MONITORING ELECTRONIC CHANNELS PERFORMANCE via TELEGRAM
 ----------
 - When user sends command, bot replies to origin.
 

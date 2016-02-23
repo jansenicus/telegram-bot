@@ -10,7 +10,7 @@ ATM, CDM, EDC
 ----------
 - When user sends command, bot replies to origin.
 
-![http://i.imgur.com/0FGUvU0.png](http://i.imgur.com/0FGUvU0.png) ![http://i.imgur.com/zW7WWWt.png](http://i.imgur.com/zW7WWWt.png) ![http://i.imgur.com/zW7WWWt.png](http://i.imgur.com/kPK7paz.png)
+![http://imgur.com/k2CFL6l](http://imgur.com/k2CFL6l)
 
 Bot Commands
 ------------

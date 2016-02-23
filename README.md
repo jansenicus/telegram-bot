@@ -6,12 +6,9 @@ telegram-bot
 
 A Telegram Bot based on plugins using [tg](https://github.com/vysheng/tg).
 
-Multimedia
+ATM, CDM, EDC
 ----------
-- When user sends image (png, jpg, jpeg) URL download and send it to origin.
-- When user sends media (gif, mp4, pdf, etc.) URL download and send it to origin.
-- When user sends twitter URL, send text and images to origin. Requires OAuth Key.
-- When user sends YouTube URL, send to origin video image.
+- When user sends command, bot replies to origin.
 
 ![http://i.imgur.com/0FGUvU0.png](http://i.imgur.com/0FGUvU0.png) ![http://i.imgur.com/zW7WWWt.png](http://i.imgur.com/zW7WWWt.png) ![http://i.imgur.com/zW7WWWt.png](http://i.imgur.com/kPK7paz.png)
 
@@ -27,14 +24,9 @@ Bot Commands
   </thead>
   <tbody>
     <tr>
-      <td>9gag.lua</td>
-      <td>9GAG for telegram</td>
-      <td>!9gag: Send random image from 9gag</td>
-    </tr>
-    <tr>
-      <td>boobs.lua</td>
-      <td>Gets a random boobs or butts pic</td>
-      <td>!boobs: Get a boobs NSFW image. :underage:<br>!butts: Get a butts NSFW image. :underage:<br></td>
+      <td>ace.lua</td>
+      <td>ATM CDM EDC</td>
+      <td>!notif atm</td>
     </tr>
     <tr>
       <td>btc.lua</td>

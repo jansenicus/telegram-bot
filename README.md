@@ -29,184 +29,184 @@ Bot Commands
       <td>!notif atm</td>
     </tr>
     <tr>
-      <td>btc.lua</td>
+      <td>ace.lua</td>
       <td>Bitcoin global average market value (in EUR or USD)</td>
       <td>!btc [EUR|USD] [amount]</td>
     </tr>
     <tr>
-      <td>bugzilla.lua</td>
+      <td>ace.lua</td>
       <td>Lookup bugzilla status update</td>
       <td>/bot bugzilla [bug number]</td>
     </tr>
     <tr>
-      <td>calculator.lua</td>
+      <td>ace.lua</td>
       <td>Calculate math expressions with mathjs API</td>
       <td>!calc [expression]: evaluates the expression and sends the result.</td>
     </tr>
     <tr>
-      <td>channels.lua</td>
+      <td>ace.lua</td>
       <td>Plugin to manage channels. Enable or disable channel.</td>
       <td>!channel enable: enable current channel<br>!channel disable: disable current channel<br></td>
     </tr>
     <tr>
-      <td>danbooru.lua</td>
+      <td>ace.lua</td>
       <td>Gets a random fresh or popular image from Danbooru</td>
       <td>!danbooru - gets a random fresh image from Danbooru :underage:<br>!danboorud - random daily popular image :underage:<br>!danbooruw - random weekly popular image :underage:<br>!danboorum - random monthly popular image :underage:<br></td>
     </tr>
     <tr>
-      <td>dogify.lua</td>
+      <td>ace.lua</td>
       <td>Create a doge image with words.</td>
       <td>!dogify (words/or phrases/separated/by/slashes) - Create a doge image with the words.</td>
     </tr>
     <tr>
-      <td>download_media.lua</td>
+      <td>ace.lua</td>
       <td>When bot receives a media msg, download the media.</td>
       <td></td>
     </tr>
     <tr>
-      <td>echo.lua</td>
+      <td>ace.lua</td>
       <td>Simplest plugin ever!</td>
       <td>!echo [whatever]: echoes the msg</td>
     </tr>
     <tr>
-      <td>eur.lua</td>
+      <td>ace.lua</td>
       <td>Real-time EURUSD market price</td>
       <td>!eur [USD]</td>
       </tr>
     <tr>
-      <td>expand.lua</td>
+      <td>ace.lua</td>
       <td>Expand a shorten URL to the original.</td>
       <td>!expand [url]</td>
     </tr>
     <tr>
-      <td>fortunes_uc3m.lua</td>
+      <td>ace.lua</td>
       <td>Fortunes from Universidad Carlos III</td>
       <td>!uc3m</td>
     </tr>
     <tr>
-      <td>get.lua</td>
+      <td>ace.lua</td>
       <td>Retrieves variables saved with !set</td>
       <td>!get (value_name): Returns the value_name value.</td>
     </tr>
     <tr>
-      <td>giphy.lua</td>
+      <td>ace.lua</td>
       <td>GIFs from telegram with Giphy API</td>
       <td>!gif (term): Search and sends GIF from Giphy. If no param, sends a trending GIF.<br>!giphy (term): Search and sends GIF from Giphy. If no param, sends a trending GIF.<br></td>
     </tr>
     <tr>
-      <td>gnuplot.lua</td>
+      <td>ace.lua</td>
       <td>Gnuplot plugin</td>
       <td>!gnuplot [single variable function]: Plot single variable function.</td>
     </tr>
     <tr>
-      <td>google.lua</td>
+      <td>ace.lua</td>
       <td>Searches Google and send results</td>
       <td>!google [terms]: Searches Google and send results</td>
     </tr>
     <tr>
-      <td>gps.lua</td>
+      <td>ace.lua</td>
       <td>generates a map showing the given GPS coordinates</td>
       <td>!gps latitude,longitude: generates a map showing the given GPS coordinates</td>
     </tr>
     <tr>
-      <td>hackernews.lua</td>
+      <td>ace.lua</td>
       <td>Show top 5 hacker news (ycombinator.com)</td>
       <td>!hackernews</td>
     </tr>
     <tr>
-      <td>hello.lua</td>
+      <td>ace.lua</td>
       <td>Says hello to someone</td>
       <td>say hello to [name]</td>
     </tr>
     <tr>
-      <td>help.lua</td>
+      <td>ace.lua</td>
       <td>Help plugin. Get info from other plugins. </td>
       <td>!help: Show list of plugins.<br>!help all: Show all commands for every plugin.<br>!help [plugin name]: Commands for that plugin.<br></td>
     </tr>
     <tr>
-        <td>id.lua</td>
-        <td>Know your id or the id of a chat members.</td>
-        <td>!id: Return your ID and the chat id if you are in one.<br>!id(s) chat: Return the IDs of the chat members.<br></td>
+      <td>ace.lua</td>
+      <td>Know your id or the id of a chat members.</td>
+      <td>!id: Return your ID and the chat id if you are in one.<br>!id(s) chat: Return the IDs of the chat members.<br></td>
     </tr>
     <tr>
-      <td>images.lua</td>
+      <td>ace.lua</td>
       <td>When user sends image URL (ends with png, jpg, jpeg) download and send it to origin.</td>
       <td></td>
     </tr>
     <tr>
-      <td>imdb.lua</td>
+      <td>ace.lua</td>
       <td>IMDB plugin for Telegram</td>
       <td>!imdb [movie]</td>
     </tr>
     <tr>
-      <td>img_google.lua</td>
+      <td>ace.lua</td>
       <td>Search image with Google API and sends it.</td>
       <td>!img [term]: Random search an image with Google API.</td>
     </tr>
     <tr>
-      <td>invite.lua</td>
+      <td>ace.lua</td>
       <td>Invite other user to the chat group</td>
       <td>!invite name [user_name]<br>!invite id [user_id]<br></td>
     </tr>
     <tr>
-      <td>isup.lua</td>
+      <td>ace.lua</td>
       <td>Check if a website or server is up.</td>
       <td>!isup [host]: Performs a HTTP request or Socket (ip:port) connection<br>!isup cron [host]: Every 5mins check if host is up. (Requires privileged user)<br>!isup cron delete [host]: Disable checking that host.<br></td>
     </tr>
     <tr>
-      <td>location.lua</td>
+      <td>ace.lua</td>
       <td>Gets information about a location, maplink and overview</td>
       <td>!loc (location): Gets information about a location, maplink and overview</td>
     </tr>
     <tr>
-      <td>magic8ball.lua</td>
+      <td>ace.lua</td>
       <td>Magic 8Ball</td>
       <td>!magic8ball</td>
     </tr>
     <tr>
-      <td>media.lua</td>
+      <td>ace.lua</td>
       <td>When user sends media URL (ends with gif, mp4, pdf, etc.) download and send it to origin.</td>
       <td></td>
     </tr>
     <tr>
-      <td>meme.lua</td>
+      <td>ace.lua</td>
       <td>Generate a meme image with up and bottom texts.</td>
       <td>
       !meme search (name): Return the name of the meme that match.<br>!meme list: Return the link where you can see the memes.<br>!meme listall: Return the list of all memes. Only admin can call it.<br>!meme [name] - [text_up] - [text_down]: Generate a meme with the picture that match with that name with the texts provided.<br>!meme [name] "[text_up]" "[text_down]": Generate a meme with the picture that match with that name with the texts provided.<br>
       </td>
     </tr>
     <tr>
-      <td>minecraft.lua</td>
+      <td>ace.lua</td>
       <td>Searches Minecraft server and sends info</td>
       <td>!mine [ip]: Searches Minecraft server on specified IP and sends info. Default port: 25565<br>!mine [ip] [port]: Searches Minecraft server on specified IP and port and sends info.<br></td>
       </tr>
     <tr>
-      <td>pili.lua</td>
+      <td>ace.lua</td>
       <td>Shorten an URL with pili.la service</td>
       <td>!pili [url]: Short the url</td>
     </tr>
     <tr>
-      <td>plugins.lua</td>
+      <td>ace.lua</td>
       <td>Plugin to manage other plugins. Enable, disable or reload.</td>
       <td>!plugins: list all plugins.<br>!plugins enable [plugin]: enable plugin.<br>!plugins disable [plugin]: disable plugin.<br>!plugins disable [plugin] chat: disable plugin only this chat.<br>!plugins reload: reloads all plugins.<br></td>
     </tr>
     <tr>
-      <td>qr.lua</td>
+      <td>ace.lua</td>
       <td>Given a text it returns a qr code</td>
       <td>!qr [text] : returns a black and white qr code <br> !qr "[background color]" "[data color]" [text] : returns a colored qr code (see !help qr to see how specify colors).</td>
     </tr>
     <tr>
-      <td>quotes.lua</td>
+      <td>ace.lua</td>
       <td>Quote plugin, you can create and retrieves random quotes</td>
       <td>!addquote [msg]<br>!quote<br></td>
     </tr>
     <tr>
-      <td>rae.lua</td>
+      <td>ace.lua</td>
       <td>Spanish dictionary</td>
       <td>!rae [word]: Search that word in Spanish dictionary.</td>
     </tr>
     <tr>
-      <td>roll.lua</td>
+      <td>ace.lua</td>
       <td>Roll some dice!</td>
       <td>
         !roll d
@@ -218,32 +218,32 @@ Bot Commands
       </td>
     </tr>
     <tr>
-      <td>rss.lua</td>
+      <td>ace.lua</td>
       <td>Manage User/Chat RSS subscriptions.</td>
       <td>!rss: Get the rss subscriptions.<br>!rss subscribe (url): Subscribe to that url.<br>!rss unsubscribe (id): Unsubscribe of that id.<br>!rss sync: Sync the rss subscriptios now. Only sudo users can use this option.<br></td>
     </tr>
     <tr>
-      <td>search_youtube.lua</td>
+      <td>ace.lua</td>
       <td>Search video on YouTube and send it.</td>
       <td>!youtube [term]: Search for a YouTube video and send it.</td>
     </tr>
     <tr>
-      <td>set.lua</td>
+      <td>ace.lua</td>
       <td>Plugin for saving values. get.lua plugin is necessary to retrieve them.</td>
       <td>!set [value_name] [data]: Saves the data with the value_name name.</td>
     </tr>
     <tr>
-      <td>stats.lua</td>
+      <td>ace.lua</td>
       <td>Plugin to update user stats.</td>
       <td>!stats: Returns a list of Username [telegram_id]: msg_num</td>
     </tr>
     <tr>
-      <td>steam.lua</td>
+      <td>ace.lua</td>
       <td>Grabs Steam info for Steam links.</td>
       <td></td>
     </tr>
     <tr>
-      <td>tex.lua</td>
+      <td>ace.lua</td>
       <td>Convert LaTeX equation to image</td>
       <td>!tex [equation]: Convert LaTeX equation to image</td>
     </tr>
@@ -320,7 +320,7 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ```bash
 # After those dependencies, lets install the bot
 cd $HOME
-git clone https://github.com/yagop/telegram-bot.git
+git clone https://github.com/jansenicus/telegram-bot.git
 cd telegram-bot
 ./launch.sh install
 ./launch.sh # Will ask you for a phone number & confirmation code.

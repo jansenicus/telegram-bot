@@ -25,33 +25,33 @@ Bot Commands
   <tbody>
     <tr>
       <td>ace.lua</td>
-      <td>ATM CDM EDC</td>
-      <td>!notif atm</td>
+      <td>Grab the status of ATMs per branch</td>
+      <td>!notif atm [branch code]</td>
     </tr>
     <tr>
       <td>ace.lua</td>
-      <td>Bitcoin global average market value (in EUR or USD)</td>
-      <td>!btc [EUR|USD] [amount]</td>
+      <td>Grab the status of CDMs per branch</td>
+      <td>!notif cdm [branch code]</td>
     </tr>
     <tr>
       <td>ace.lua</td>
-      <td>Lookup bugzilla status update</td>
-      <td>/bot bugzilla [bug number]</td>
+      <td>Grab list of branches reached the best 100% ATM availability</td>
+      <td>!best atm</td>
     </tr>
     <tr>
       <td>ace.lua</td>
-      <td>Calculate math expressions with mathjs API</td>
-      <td>!calc [expression]: evaluates the expression and sends the result.</td>
+      <td>Grab list of branches reached the best 100% EDC Merchant availability</td>
+      <td>!best merchant</td>
     </tr>
     <tr>
       <td>ace.lua</td>
-      <td>Plugin to manage channels. Enable or disable channel.</td>
-      <td>!channel enable: enable current channel<br>!channel disable: disable current channel<br></td>
+      <td>Grab list of branches reached the best 100% EDC BRILINK availability</td>
+      <td>!best brilink</td>
     </tr>
     <tr>
       <td>ace.lua</td>
-      <td>Gets a random fresh or popular image from Danbooru</td>
-      <td>!danbooru - gets a random fresh image from Danbooru :underage:<br>!danboorud - random daily popular image :underage:<br>!danbooruw - random weekly popular image :underage:<br>!danboorum - random monthly popular image :underage:<br></td>
+      <td>Grab list of branches reached the best 100% EDC UKO availability</td>
+      <td>!best uko</td>
     </tr>
     <tr>
       <td>ace.lua</td>

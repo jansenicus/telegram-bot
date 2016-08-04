@@ -166,7 +166,7 @@ local function run(msg, matches)
 	end
 
 	if (matches[1] == "nontunai") then
-		strCommand = "python /home/administrator/NOTIFIKASI/ATM/fetchStatusATMNonTunai.pyc "..matches[2].." "..matches[3]
+		strCommand = "python /home/administrator/NOTIFIKASI/ATM/fetchStatusATMNonTunai.pyc "..matches[2]
 	end
 
 
@@ -284,7 +284,7 @@ return {
 		"^!(best) (%w+)",
 		"^!(worst) (%w+)",
 		"^!(tunai) (%w+) (%d+)",
-		"^!(nontunai) (%w+) (%d+)",
+		"^!(nontunai) +(.+)$",
 		"^!(co) (%w+)",
 		"^!(cl) (%w+)",
 		"^!(cr) (%w+)",
